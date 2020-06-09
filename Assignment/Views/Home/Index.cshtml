@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Health Care Consultation</h1>
+    <p class="lead">Health Care Consultation is a free website for users to view maps and make a reservation of consultation from the calendar.</p>
+    
+    <picture>
+        <source media="(max-width: 499px)" srcset="~/Resources/Health320.jpg">
+        <source media="(max-width: 799px)" srcset="~/Resources/Health500.jpg">
+        <source media="(max-width: 1199px)" srcset="~/Resources/Health640.jpg">
+        <source media="(min-width: 1200px)" srcset="~/Resources/Health1000.jpg">
+        <img src="/Health1000.jpg" width: 100%/ >
+    </picture>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <h2>See our location</h2>
+        <p>
+            To view the Map, you can view the map from here directly, not just from navigation bar.
+        </p>
+        <p><a class="btn btn-default" href="http://localhost:55457/Locations">Go &raquo;</a></p>
+    </div>
+
+    <div class="col-md-6">
+        <h2>Join our discussion</h2>
+        <p>To see our discussion, get the evalutation of our service, plsease cilck the "Go" below.</p>
+        <p><a class="btn btn-default" href="http://localhost:55457/Forum">Go &raquo;</a></p>
+    </div>
+</div>
